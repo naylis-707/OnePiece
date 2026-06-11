@@ -1,4 +1,4 @@
-#ifdef PIRATAS_H
+#ifndef PIRATAS_H
 #define PIRATAS_H
 #define STRING_SIZE 40
 typedef struct{
@@ -7,4 +7,5 @@ typedef struct{
 	int age;
 	char crew[STRING_SIZE];
 } Pirate;
+int comparePirates(const void* x, const void* y);
 #endif
